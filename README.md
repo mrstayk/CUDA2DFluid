@@ -1,2 +1,2 @@
 # ReadMe
-This Project contains code and files that come from different sources and are not owned by me.
+This project contains some code and files that are not written or owned by me.
