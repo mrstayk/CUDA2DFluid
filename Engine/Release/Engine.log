@@ -1,0 +1,428 @@
+﻿Build started 25/09/2015 17:24:27.
+     1>Project "C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DNDEBUG /D_WINDOWS /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\/include" /I./inc /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/include" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\CUDA Source Files\FluidCUDA.cu" 
+       CudaBuild:
+         Compiling CUDA source file CUDA Source Files\FluidCUDA.cu...
+         cmd.exe /C "C:\Users\Martin\AppData\Local\Temp\tmp604051a2aa274a0d98e636e1d3cb805c.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\/include" -I./inc -I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/include" -I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Release -maxrregcount=32  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_WINDOWS -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MD  " -o Release\FluidCUDA.cu.obj "C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\CUDA Source Files\FluidCUDA.cu"
+         
+         C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\/include" -I./inc -I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/include" -I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Release -maxrregcount=32  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_WINDOWS -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MD  " -o Release\FluidCUDA.cu.obj "C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\CUDA Source Files\FluidCUDA.cu" 
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1133): warning : "CD3D11_RECT::operator const D3D11_RECT &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1179): warning : "CD3D11_BOX::operator const D3D11_BOX &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1441): warning : "CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1661): warning : "CD3D11_BLEND_DESC::operator const D3D11_BLEND_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1857): warning : "CD3D11_RASTERIZER_DESC::operator const D3D11_RASTERIZER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2200): warning : "CD3D11_BUFFER_DESC::operator const D3D11_BUFFER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2400): warning : "CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2608): warning : "CD3D11_TEXTURE2D_DESC::operator const D3D11_TEXTURE2D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2811): warning : "CD3D11_TEXTURE3D_DESC::operator const D3D11_TEXTURE3D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3419): warning : "CD3D11_SHADER_RESOURCE_VIEW_DESC::operator const D3D11_SHADER_RESOURCE_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3230): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3232): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3309): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3311): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3344): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3346): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3404): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3314): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3315): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3320): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3321): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3350): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3353): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3361): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3362): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3407): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3412): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3793): warning : "CD3D11_RENDER_TARGET_VIEW_DESC::operator const D3D11_RENDER_TARGET_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3651): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3708): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3739): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3777): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3712): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3717): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3743): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3750): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3780): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3785): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4081): warning : "CD3D11_VIEWPORT::operator const D3D11_VIEWPORT &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4264): warning : "CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4156): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4195): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4228): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4201): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4206): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4234): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4241): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4615): warning : "CD3D11_UNORDERED_ACCESS_VIEW_DESC::operator const D3D11_UNORDERED_ACCESS_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4483): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4538): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4569): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4599): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4542): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4547): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4573): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4578): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4602): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4607): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(5690): warning : "CD3D11_SAMPLER_DESC::operator const D3D11_SAMPLER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(6050): warning : "CD3D11_QUERY_DESC::operator const D3D11_QUERY_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(6384): warning : "CD3D11_COUNTER_DESC::operator const D3D11_COUNTER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(1629): warning : "CD3D10_BUFFER_DESC::operator const D3D10_BUFFER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(1855): warning : "CD3D10_TEXTURE1D_DESC::operator const D3D10_TEXTURE1D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(2097): warning : "CD3D10_TEXTURE2D_DESC::operator const D3D10_TEXTURE2D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(2340): warning : "CD3D10_TEXTURE3D_DESC::operator const D3D10_TEXTURE3D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\inc\dynlink_d3d11.h(171): warning : statement is unreachable
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "s0" was declared but never referenced
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "t0" was declared but never referenced
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "s1" was declared but never referenced
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "t1" was declared but never referenced
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1133): warning : "CD3D11_RECT::operator const D3D11_RECT &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1179): warning : "CD3D11_BOX::operator const D3D11_BOX &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1441): warning : "CD3D11_DEPTH_STENCIL_DESC::operator const D3D11_DEPTH_STENCIL_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1661): warning : "CD3D11_BLEND_DESC::operator const D3D11_BLEND_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(1857): warning : "CD3D11_RASTERIZER_DESC::operator const D3D11_RASTERIZER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2200): warning : "CD3D11_BUFFER_DESC::operator const D3D11_BUFFER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2400): warning : "CD3D11_TEXTURE1D_DESC::operator const D3D11_TEXTURE1D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2608): warning : "CD3D11_TEXTURE2D_DESC::operator const D3D11_TEXTURE2D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(2811): warning : "CD3D11_TEXTURE3D_DESC::operator const D3D11_TEXTURE3D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3419): warning : "CD3D11_SHADER_RESOURCE_VIEW_DESC::operator const D3D11_SHADER_RESOURCE_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3230): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3232): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3309): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3311): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3344): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3346): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3404): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3314): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3315): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3320): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3321): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3350): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3353): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3361): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3362): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3407): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3412): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3793): warning : "CD3D11_RENDER_TARGET_VIEW_DESC::operator const D3D11_RENDER_TARGET_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3651): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3708): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3739): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3777): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3712): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3717): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3743): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3750): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3780): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(3785): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4081): warning : "CD3D11_VIEWPORT::operator const D3D11_VIEWPORT &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4264): warning : "CD3D11_DEPTH_STENCIL_VIEW_DESC::operator const D3D11_DEPTH_STENCIL_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4156): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4195): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4228): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4201): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4206): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4234): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4241): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4615): warning : "CD3D11_UNORDERED_ACCESS_VIEW_DESC::operator const D3D11_UNORDERED_ACCESS_VIEW_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4483): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4538): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4569): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4599): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4542): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4547): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4573): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4578): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4602): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(4607): warning : integer conversion resulted in a change of sign
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(5690): warning : "CD3D11_SAMPLER_DESC::operator const D3D11_SAMPLER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(6050): warning : "CD3D11_QUERY_DESC::operator const D3D11_QUERY_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\include\d3d11.h(6384): warning : "CD3D11_COUNTER_DESC::operator const D3D11_COUNTER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(1629): warning : "CD3D10_BUFFER_DESC::operator const D3D10_BUFFER_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(1855): warning : "CD3D10_TEXTURE1D_DESC::operator const D3D10_TEXTURE1D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(2097): warning : "CD3D10_TEXTURE2D_DESC::operator const D3D10_TEXTURE2D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(2340): warning : "CD3D10_TEXTURE3D_DESC::operator const D3D10_TEXTURE3D_DESC &() const" will not be called for implicit or explicit conversions
+         
+     1>C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\inc\dynlink_d3d11.h(171): warning : statement is unreachable
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "s0" was declared but never referenced
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "t0" was declared but never referenced
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "s1" was declared but never referenced
+         
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(121): warning : variable "t1" was declared but never referenced
+         
+         FluidCUDA.cu
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(23): warning C4995: 'strncat': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(24): warning C4995: 'strncpy': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(36): warning C4995: 'wcsncat': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(36): warning C4995: 'wcsncpy': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>C:/Users/Martin/Documents/GitHub/CUDA2DFluid (new)/Engine/CUDA Source Files/FluidCUDA.cu(508): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\/include" /I./inc /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/include" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cameraclass.cpp d3dclass.cpp fontclass.cpp fpsclass.cpp graphicsclass.cpp inputclass.cpp main.cpp modelclass.cpp "Shader Classes\fontshaderclass.cpp" "Shader Classes\textureshaderclass.cpp" systemclass.cpp textclass.cpp textureclass.cpp
+         textureclass.cpp
+         textclass.cpp
+         systemclass.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(23): warning C4995: 'strncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(24): warning C4995: 'strncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+         textureshaderclass.cpp
+         fontshaderclass.cpp
+         modelclass.cpp
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(23): warning C4995: 'strncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(24): warning C4995: 'strncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+         inputclass.cpp
+         graphicsclass.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(23): warning C4995: 'strncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(24): warning C4995: 'strncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\users\martin\documents\github\cuda2dfluid (new)\engine\graphicsclass.cpp(460): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\martin\documents\github\cuda2dfluid (new)\engine\graphicsclass.cpp(461): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\martin\documents\github\cuda2dfluid (new)\engine\graphicsclass.cpp(427): warning C4101: 'keyDown' : unreferenced local variable
+         fpsclass.cpp
+         fontclass.cpp
+         d3dclass.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(23): warning C4995: 'strncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(24): warning C4995: 'strncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(36): warning C4995: 'wcsncpy': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+         cameraclass.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Release\Engine.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\/Lib/x86" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" AntTweakBar64.lib cudart.lib cudart_static.lib d3d11.lib d3dx11.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Release\Engine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Release\Engine.lib" /MACHINE:X86 Release\FluidCUDA.cu.obj
+         Release\cameraclass.obj
+         Release\d3dclass.obj
+         Release\fontclass.obj
+         Release\fpsclass.obj
+         Release\graphicsclass.obj
+         Release\inputclass.obj
+         Release\main.obj
+         Release\modelclass.obj
+         Release\fontshaderclass.obj
+         Release\textureshaderclass.obj
+         Release\systemclass.obj
+         Release\textclass.obj
+         Release\textureclass.obj
+     1>cameraclass.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+         Engine.vcxproj -> C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Release\Engine.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\Engine.unsuccessfulbuild".
+         Touching "Release\Engine.lastbuildstate".
+     1>Done Building Project "C:\Users\Martin\Documents\GitHub\CUDA2DFluid (new)\Engine\Engine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.24

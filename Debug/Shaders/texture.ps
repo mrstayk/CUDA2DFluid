@@ -1,0 +1,52 @@
+// *** Author: Martin Staykov
+// *** May, 2015
+// ***
+// *** References:
+// *** Abertay University
+// *** rastertek.com
+// *** NVIDIA CUDA Toolkit
+
+Texture2D shaderTexture;
+SamplerState SampleType;
+
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+    float2 tex : TEXCOORD0;
+};
+
+cbuffer ColorBuffer
+{
+    float red;
+    float green;
+	float blue;
+    float padding;
+};
+
+float4 TexturePixelShader(PixelInputType input) : SV_TARGET
+{
+	float4 textureColor;
+
+	// Sample the pixel color from the texture using the sampler at this texture coordinate location.
+	float color = shaderTexture.Sample(SampleType, input.tex);
+    textureColor.a = 1.0f;
+
+	color = saturate(color);
+
+	if (color < 0.01) 
+	{
+		textureColor.r = 0;
+		textureColor.g = 0;
+		textureColor.b = 0;
+	}
+	else
+	{
+		textureColor.r = color*red;
+		textureColor.g = color*green;
+		textureColor.b = color*blue;
+	}
+
+	textureColor = saturate(textureColor);
+	
+    return textureColor;
+}
