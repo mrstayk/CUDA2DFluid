@@ -23,4 +23,4 @@ Provided here is the Abstract, which contains a summary of the project. Full dis
 
 ![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg2.jpg "Vorticity confinement turned on")
 
-![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg3.jpg "A larger number of Poisson iterations produce a more detailed fluid but this comes at a performance cost")
+![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg3.png "A larger number of Poisson iterations produce a more detailed fluid but this comes at a performance cost")
