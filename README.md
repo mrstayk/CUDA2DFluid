@@ -21,4 +21,4 @@ Provided here is the Abstract, which contains a summary of the project. Full dis
 
 ![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg1.jpg "White Smoke")
 
-![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg1.jpg "Vorticity confinement turned on")
+![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg2.jpg "Vorticity confinement turned on")
