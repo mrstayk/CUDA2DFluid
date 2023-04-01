@@ -18,3 +18,5 @@ Honours project in BSc (Hons) Computer Games Technology at Abertay University, D
 This project uses the parallel nature of the GPU to compute a complex physical simulation.
 
 Provided here is the Abstract, which contains a summary of the project. Full dissertation available on demand.
+
+![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg1.jpg "White Smoke")
