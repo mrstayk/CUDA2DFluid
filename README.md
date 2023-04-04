@@ -20,8 +20,8 @@ This project uses the parallel nature of the GPU to compute a complex physical s
 Provided here is the Abstract, which contains a summary of the project. Full dissertation available on demand.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ohhROn3IK4E
-" target="_blank"><img src="http://img.youtube.com/vi/ohhROn3IK4E/1.jpg" 
-alt="IMAGE ALT TEXT HERE" width="320" height="240" border="12" /></a>
+" target="_blank"><img src="http://img.youtube.com/vi/ohhROn3IK4E/2.jpg" 
+alt="IMAGE ALT TEXT HERE" width="320" height="240" border="21" /></a>
 
 ![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg1.jpg "White Smoke")
 
