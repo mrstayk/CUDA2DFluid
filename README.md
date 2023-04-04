@@ -25,4 +25,4 @@ Provided here is the Abstract, which contains a summary of the project. Full dis
 
 ![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg3.png "A larger number of Poisson iterations produce a more detailed fluid but this comes at a performance cost")
 
-![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg4.png "Smoke with no buoyant force acting on it. It effectively acts as if gravity is switched off.")
+![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg4.jpg "Smoke with no buoyant force acting on it. It effectively acts as if gravity is switched off.")
