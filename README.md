@@ -29,3 +29,5 @@ alt="IMAGE ALT TEXT HERE" width="480" height="360" border="1" /></a>
 ![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg4.jpg "Smoke with no buoyant force acting on it. It effectively acts as if gravity is switched off.")
 
 ![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg5.jpg "Physically-Based Smoke Simulation in Real Time Using CUDA.")
+
+![alt text](https://github.com/mrstayk/CUDA2DFluid/blob/master/readmeimg6.jpg "Dissertation Abstract.")
