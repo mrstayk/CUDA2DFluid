@@ -7,9 +7,6 @@ Date:
 	1.2015 – 5.2015
 Type:
 	2-D Application in DirectX 11 with CUDA
-URL:	
-www.youtube.com/watch?v=ohhROn3IK4E
-
 Languages:
 	CUDA C, C, C++, HLSL
 
